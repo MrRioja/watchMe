@@ -6,22 +6,22 @@
   <img src="./public/images/logo.svg" alt="Logo" width="200"/>
 </div>
 <h5 align="center">
-Informação sem complicação.
+[SUBTITLE]
 </h5>
 
 <br><br>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Ignite&message=IgNews&color=blueviolet&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/license/MrRioja/ignews?color=blueviolet&logo=License&style=for-the-badge"/>
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/ignews?color=blueviolet&logo=JavaScript&logoColor=white&style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/ignews?color=blueviolet&style=for-the-badge">
+  <img src="https://img.shields.io/static/v1?label=Ignite&message=watchMe&color=blueviolet&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/MrRioja/watchMe?color=blueviolet&logo=License&style=for-the-badge"/>
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/watchMe?color=blueviolet&logo=JavaScript&logoColor=white&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/watchMe?color=blueviolet&style=for-the-badge">
 </p>
 <br>
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#ignews">IgNews</a> •
+  <a href="#watchMe">WatchMe</a> •
   <a href="#instalação">Instalação</a> •
   <a href="#tecnologias">Tecnologias</a> •
   <a href="#autor">Autor</a>  
@@ -41,7 +41,7 @@ Informação sem complicação.
 
 <br><br><br>
 
-## IgNews
+## WatchMe
 
 <br><br><br>
 
