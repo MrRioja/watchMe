@@ -1,20 +1,17 @@
 <div align="center">
-  <img src="./public/images/avatar.svg" alt="Logo" width="100"/>
-  <br/>
-  <br/>
-
-  <img src="./public/images/logo.svg" alt="Logo" width="200"/>
+  <img src="./readme/logo.png" alt="Logo" />
 </div>
 <h5 align="center">
-[SUBTITLE]
+  O melhor do cinema pra você!
 </h5>
 
-<br><br>
+<br/>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Ignite&message=watchMe&color=blueviolet&style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/MrRioja/watchMe?color=blueviolet&logo=License&style=for-the-badge"/>
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/watchMe?color=blueviolet&logo=JavaScript&logoColor=white&style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/watchMe?color=blueviolet&logo=TypeScript
+&logoColor=white&style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/watchMe?color=blueviolet&style=for-the-badge">
 </p>
 <br>
@@ -32,103 +29,46 @@
 ## Sobre
 
 <p>
-  Projeto desenvolvido durante o Ignite, um bootcamp criado pela <strong><a href="https://rocketseat.com.br/">Rocketseat</a></strong> com diversas trilhas de variadas tecnologias. O projeto foi criado durante o módulo III do bootcamp na trilha de <strong><a href="https://pt-br.reactjs.org/">ReactJS</a></strong>, que tinha como foco ensinar [COMPLETAR AQUI].
+  Projeto desenvolvido durante o Ignite, um bootcamp criado pela <strong><a href="https://rocketseat.com.br/">Rocketseat</a></strong> com diversas trilhas de variadas tecnologias. O projeto foi criado durante o módulo III do bootcamp na trilha de <strong><a href="https://pt-br.reactjs.org/">ReactJS</a></strong>.
 </p>
-
-<br><br>
-
-<img src="./readme/Wallpaper.png" alt="Logo" style="border-radius: 20px"/>
-
-<br><br><br>
 
 ## WatchMe
 
-<br><br><br>
+O WatchMe é uma aplicação cujo objetivo é listar filmes por categorias. Para esse projeto foram selecionadas algumas categorias e filmes que pertencem a cada uma delas para consolidar e praticar o conhecimento nos fundamentos do React.
+A aplicação utiliza uma API fake criada com JSON server e renderiza os filmes retornados na tela conforme GIF abaixo:
+
+![WatchMe](./readme/watchme.gif)
 
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-### 🎲 Rodando o Back End (servidor)
+### 🖥 Rodando o projeto
 
 ```bash
 # Clone este repositório
-$ git clone git@github.com:MrRioja/ignews.git
+$ git clone git@github.com:MrRioja/watchMe.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd ignews
-
-# Vá para a pasta server
-$ cd backend
+$ cd watchMe
 
 # Instale as dependências
 $ npm install
 # Caso prefira usar o Yarn execute o comando abaixo
 $ yarn
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
-# Caso prefira usar o Yarn execute o comando abaixo
+# Antes de executarmos o projeto, vamos executar a API feita com JSON server em um terminal
+$ yarn server
+
+# Por fim, basta executar o projeto em React com o comando abaixo em outro terminal
 $ yarn dev
 
-# O servidor inciará na porta 3333 ou na porta definida no arquivo .env na variavel APP_PORT - acesse <http://localhost:3333>
-```
-
-### 🖥️ Rodando o Front End (Web)
-
-```bash
-# Clone este repositório
-$ git clone git@github.com:MrRioja/ignews.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd ignews
-
-# Vá para a pasta server
-$ cd frontend
-
-# Instale as dependências
-$ npm install
-# Caso prefira usar o Yarn execute o comando abaixo
-$ yarn
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-# Caso prefira usar o Yarn execute o comando abaixo
-$ yarn start
-
-# O servidor inciará na porta 3000 - acesse <http://localhost:3000>
-```
-
-### 📱 Rodando o App (Mobile)
-
-```bash
-# Clone este repositório
-$ git clone git@github.com:MrRioja/ignews.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd ignews
-
-# Vá para a pasta server
-$ cd tindev
-
-# Instale as dependências
-$ npm install
-# Caso prefira usar o Yarn execute o comando abaixo
-$ yarn
-
-# Execute a aplicação
-$ expo start
-
-# Será aberto no terminal o menu do Expo onde poderá scanear o QR Code para executar o app diretamente no seu celular ou as opções de executar no emulador android ou iOS
+# A aplicação estará disponível localmente e conectada com a nossa API - acesse <http://localhost:8080>
 ```
 
 ## Tecnologias
-
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="75" />
-
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="75"/>
 
 <img align="left" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="75" />
 
@@ -137,7 +77,7 @@ $ expo start
 ## Autor
 
 <div align="center">
-<img src="https://badges.pufler.dev/contributors/MrRioja/ignews?size=100&padding=5&bots=false"/>
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/55336456?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d" />
 <h1>Luiz Rioja</h1>
 <strong>Backend Developer</strong>
 <br/>
