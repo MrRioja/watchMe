@@ -1,5 +1,6 @@
 .container {
   max-width: 52.5rem;
+  padding-bottom: 2rem;
   width: 100%;
 
   margin: 0 auto;
@@ -22,10 +23,13 @@ header {
 
 main {
   width: 100%;
+  display: flex;
   margin-top: 5.625rem;
+  justify-content: flex-start;
 
   .movies-list {
     display: grid;
+    width: max-content;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     grid-gap: 1rem;
